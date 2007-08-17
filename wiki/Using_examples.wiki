@@ -1,5 +1,4 @@
 #summary This is a little documentation page containing some using examples of Crypt class.
-#labels Phase-Implementation
 
 =Using examples=
 
