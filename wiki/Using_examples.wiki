@@ -1,5 +1,3 @@
-#summary This is a little documentation page containing some using examples of Crypt class.
-
 =Using examples=
 
 @todo
