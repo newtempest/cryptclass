@@ -1,2 +1,26 @@
 #labels Documentation
-_under construction_
+==Encryptation process==
+
+{{{
+<?php 
+require_once 'Crypt.class.php'; 
+ 
+$Crypt = new Crypt; 
+$Crypt->Key  = 'MY_PERSONAL_CRYPT_KEY'; 
+$Ctypt->Mode = CRYPT_MODE_BINARY; 
+echo $Crypt->Encode('myvalue'); 
+?>
+}}}
+
+==Hash process==
+
+{{{
+<?php 
+require_once 'Crypt.class.php'; 
+ 
+$Crypt = new Crypt; 
+$Crypt->Key  = 'MY_PERSONAL_CRYPT_KEY'; 
+$Ctypt->Hash = CRYPT_HASH_MD5; 
+echo $Crypt->Hash('myvalue'); 
+?>
+}}}
