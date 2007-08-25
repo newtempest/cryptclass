@@ -1,5 +1,5 @@
 #labels Documentation
-==Encryptation process==
+*Encryptation process*
 
 {{{
 <?php 
@@ -12,7 +12,7 @@ echo $Crypt->Encode('myvalue');
 ?>
 }}}
 
-==Hash process==
+*Hash process*
 
 {{{
 <?php 
