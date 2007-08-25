@@ -1,5 +1,5 @@
 #labels Documentation
-*Encryptation process*
+*Encryption process*
 
 {{{
 <?php 
