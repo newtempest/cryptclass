@@ -6,8 +6,8 @@
 require_once 'Crypt.class.php'; 
  
 $Crypt = new Crypt(CRYPT_MODE_BINARY, CRYPT_HASH_SHA1);
-$Crypt->Key = 'MY_PERSONAL_CRYPT_KEY'; 
-echo $Crypt->Encode('myvalue'); 
+$Crypt->Key = 'foo'; 
+echo $Crypt->Encode('bar'); 
 ?>
 }}}
 
@@ -18,7 +18,7 @@ echo $Crypt->Encode('myvalue');
 require_once 'Crypt.class.php'; 
  
 $Crypt = new Crypt(CRYPT_MODE_BINARY, CRYPT_HASH_SHA1);
-$Crypt->Key = 'MY_PERSONAL_CRYPT_KEY';
-echo $Crypt->Hash('myvalue'); 
+$Crypt->Key = 'foo';
+echo $Crypt->Hash('bar'); 
 ?>
 }}}
