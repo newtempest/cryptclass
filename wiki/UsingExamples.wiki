@@ -1,4 +1,4 @@
-#labels Documentation
+#labels Documentation,Featured
 *Encryption process*
 
 A basic example of the encryption process using the binary mode.
