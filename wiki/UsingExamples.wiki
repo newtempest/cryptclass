@@ -9,7 +9,8 @@ require_once 'Crypt.class.php';
 
 $Crypt = new Crypt(CRYPT_MODE_BINARY, CRYPT_HASH_SHA1);
 $Crypt->Key = 'foo';
-echo $Crypt->Encode('bar');
+echo $encrypted = $Crypt->Encrypt('bar');
+echo $Crypt->Decrypt($encrypted);
 ?>
 }}}
 
