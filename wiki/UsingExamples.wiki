@@ -31,6 +31,18 @@ echo $Crypt->Decrypt($encrypted);
 
 A basic example of the encryption process using the hexadecimal mode.
 
+{{{
+<?php
+require_once 'Crypt.class.php';
+
+$Crypt = new Crypt;
+$Crypt->Mode = CRYPT_MODE_HEXADECIMAL;
+$Crypt->Key  = 'foo';
+echo $encrypted = $Crypt->Encrypt('bar');
+echo $Crypt->Decrypt($encrypted);
+?>
+}}}
+
 *Hashing process*
 
 A basic example of the hashing process using the SHA1 hash algorithm.
