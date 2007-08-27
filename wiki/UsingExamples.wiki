@@ -7,14 +7,31 @@ A basic example of the encryption process using the binary mode.
 <?php
 require_once 'Crypt.class.php';
 
-$Crypt = new Crypt(CRYPT_MODE_BINARY, CRYPT_HASH_SHA1);
-$Crypt->Key = 'foo';
+$Crypt = new Crypt;
+$Crypt->Mode = CRYPT_MODE_BINARY;
+$Crypt->Key  = 'foo';
 echo $encrypted = $Crypt->Encrypt('bar');
 echo $Crypt->Decrypt($encrypted);
 ?>
 }}}
 
-*Hash process*
+A basic example of the encryption process using the hexadecimal mode.
+
+{{{
+<?php
+require_once 'Crypt.class.php';
+
+$Crypt = new Crypt;
+$Crypt->Mode = CRYPT_MODE_BINARY;
+$Crypt->Key  = 'foo';
+echo $encrypted = $Crypt->Encrypt('bar');
+echo $Crypt->Decrypt($encrypted);
+?>
+}}}
+
+A basic example of the encryption process using the hexadecimal mode.
+
+*Hashing process*
 
 A basic example of the hashing process using the SHA1 hash algorithm.
 
@@ -22,8 +39,22 @@ A basic example of the hashing process using the SHA1 hash algorithm.
 <?php
 require_once 'Crypt.class.php';
 
-$Crypt = new Crypt(CRYPT_MODE_BINARY, CRYPT_HASH_SHA1);
-$Crypt->Key = 'foo';
+$Crypt = new Crypt;
+$Crypt->Hash = CRYPT_HASH_SHA1;
+$Crypt->Key  = 'foo';
+echo $Crypt->Hash('bar');
+?>
+}}}
+
+A basic example of the hashing process using the MD5 hash algorithm.
+
+{{{
+<?php
+require_once 'Crypt.class.php';
+
+$Crypt = new Crypt;
+$Crypt->Hash = CRYPT_HASH_MD5;
+$Crypt->Key  = 'foo';
 echo $Crypt->Hash('bar');
 ?>
 }}}
