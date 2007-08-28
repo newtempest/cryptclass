@@ -26,6 +26,7 @@ require_once 'Crypt.class.php';
 $Crypt = new Crypt;
 $Crypt->Hash = CRYPT_HASH_SHA1;
 $Crypt->Key  = 'foo';
-echo $Crypt->Hash('bar');
+echo $hash = $Crypt->Hash('bar');
+echo (int) $hash === $Crypt->Hash('bar');
 ?>
 }}}
