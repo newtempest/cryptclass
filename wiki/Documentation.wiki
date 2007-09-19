@@ -1,6 +1,8 @@
 #summary Welcome to the developer documentation for Crypt class
 #labels Documentation
 
+This page goals to provide an ...
+
 
 *Encryption process*
 
@@ -33,6 +35,7 @@ echo $hash = $Crypt->Hash('bar');
 echo (int) $hash === $Crypt->Hash('bar');
 ?>
 }}}
+ 
  
  
  
