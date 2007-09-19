@@ -1,7 +1,7 @@
 #summary Documentation
 #labels Documentation
 
-Welcome to the [[Documentation Crypt class documentation page]].
+Welcome to the [Documentation Crypt class documentation page].
 
 *Encryption process*
 
@@ -34,3 +34,4 @@ echo $hash = $Crypt->Hash('bar');
 echo (int) $hash === $Crypt->Hash('bar');
 ?>
 }}}
+ 
