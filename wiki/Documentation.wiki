@@ -1,4 +1,4 @@
-#summary Documentation
+#summary The official center of Crypt class documentation
 #labels Documentation
 
 Welcome to the [Documentation Crypt class documentation page].
@@ -34,4 +34,6 @@ echo $hash = $Crypt->Hash('bar');
 echo (int) $hash === $Crypt->Hash('bar');
 ?>
 }}}
+ 
+ 
  
