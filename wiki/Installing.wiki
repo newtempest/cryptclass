@@ -8,6 +8,7 @@ Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2 tar.
 {{{
 $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
 $ tar xvjpf cryptclass_v2.2.tar.bz2
+$ cp -r cryptclass_v2.2 /var/www/your_working_path
 }}}
 
 Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz] package:
@@ -15,6 +16,7 @@ Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.g
 {{{
 $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
 $ tar xvjpf cryptclass_v2.2.tar.bz2
+$ cp -r cryptclass_v2.2 /var/www/your_working_path
 }}}
 
 == Installing from the SVN ==
