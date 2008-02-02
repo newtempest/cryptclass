@@ -30,3 +30,4 @@ $ cp -r cryptclass_v2.2 /your/application/path
 {{{
 $ svn checkout http://cryptclass.googlecode.com/svn/trunk/ /your/application/path/Crypt
 }}}
+_Get more information about this method [http://code.google.com/p/cryptclass/source/checkout here]_
