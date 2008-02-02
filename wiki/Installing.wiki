@@ -3,24 +3,24 @@
 
 == Downloading the packages ==
 
- # Installing the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2 tar.bz2 package]:
+=== [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2 tar.bz2 package]: ===
  {{{
  $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
  $ tar xvjpf cryptclass_v2.2.tar.bz2
  $ cp -r cryptclass_v2.2 /your/application/path
  }}}
 
- # Installing the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz package]:{{{
+=== [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz package]:===
+{{{
 $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
 $ tar xvjpf cryptclass_v2.2.tar.bz2
 $ cp -r cryptclass_v2.2 /your/application/path
 }}}
 
- # Download the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.zip zip package] and extract the content in the your application path.
+=== [http://cryptclass.googlecode.com/files/cryptclass_v2.2.zip zip package]: ===
 
 == From the SVN ==
 
-# Installing the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz package]:
 {{{
-$ svn checkout http://cryptclass.googlecode.com/svn/trunk/ cryptclass
+$ svn checkout http://cryptclass.googlecode.com/svn/trunk/ /your/application/path/Crypt
 }}}
