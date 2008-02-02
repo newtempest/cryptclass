@@ -1,0 +1,15 @@
+#labels Documentation
+#The Crypt class documentation
+
+_Under development_
+
+== Getting Start ==
+
+ * [Requirements]
+ * [Installing]
+ * [Demos]
+
+== How to use ==
+
+ * [BasicExample]
+ * [Tips]
