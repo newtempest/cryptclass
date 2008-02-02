@@ -7,7 +7,6 @@ _Under development_
 
  * [Requirements]
  * [Installing]
- * [Demos]
 
 == How to use ==
 
