@@ -3,7 +3,7 @@
 
 == Installing from the web ==
 
-Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2 tar.bz2] package:
+Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2 tar.bz2 package]:
 
 {{{
 $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
@@ -11,7 +11,7 @@ $ tar xvjpf cryptclass_v2.2.tar.bz2
 $ cp -r cryptclass_v2.2 /var/www/your_working_path
 }}}
 
-Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz] package:
+Getting the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz package]:
 
 {{{
 $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
