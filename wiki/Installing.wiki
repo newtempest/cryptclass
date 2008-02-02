@@ -1,0 +1,7 @@
+#summary How to install the Crypt class?
+#labels Phase-Deploy
+
+== Installing from the SVN ==
+
+
+== Installing from web ==
