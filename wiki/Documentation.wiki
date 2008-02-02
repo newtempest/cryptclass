@@ -1,5 +1,5 @@
 #summary The Crypt class documentation
-#labels Documentation
+#labels Documentation,Featured
 
 _Under development_
 
