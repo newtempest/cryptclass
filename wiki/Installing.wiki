@@ -25,7 +25,7 @@ $ cp -r cryptclass_v2.2 /your/application/path
 }}}
 
 
-== From the SVN ==
+== Installing the SVN version ==
 
 {{{
 $ svn checkout http://cryptclass.googlecode.com/svn/trunk/ /your/application/path/Crypt
