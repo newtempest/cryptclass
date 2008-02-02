@@ -20,7 +20,7 @@ $ cp -r cryptclass_v2.2 /your/application/path
 *Installing the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.zip zip package]:*
 {{{
 $ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.zip
-$ unzip cryptclass_v2.2.tar.bz2
+$ unzip cryptclass_v2.2.zip
 $ cp -r cryptclass_v2.2 /your/application/path
 }}}
 
