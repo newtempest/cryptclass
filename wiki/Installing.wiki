@@ -12,8 +12,8 @@
 
 *Installing the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz tar.gz package]:*
 {{{
-$ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2
-$ tar xvjpf cryptclass_v2.2.tar.bz2
+$ wget http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.gz
+$ tar xvzpf cryptclass_v2.2.tar.gz
 $ cp -r cryptclass_v2.2 /your/application/path
 }}}
 
