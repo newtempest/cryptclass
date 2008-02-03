@@ -1,0 +1,13 @@
+#summary Some code examples
+
+== Basic ==
+
+{{{
+<?php
+require_once 'Crypt/Crypt.php';
+
+$crypt = new Crypt();
+$encrypted = $crypt->encrypt('my test');
+echo $crypt->decrypt($encrypted);
+?>
+}}}
