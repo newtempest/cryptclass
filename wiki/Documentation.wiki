@@ -10,5 +10,5 @@ _Under development_
 
 == How to use ==
 
- * [BasicExample]
+ * [Demos]
  * [Tips]
