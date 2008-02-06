@@ -1,0 +1,27 @@
+#summary How to use the Crypt class?
+
+== Examples ==
+
+{{{
+<?php
+require_once 'Crypt/Crypt.php';
+
+$crypt = new Crypt();
+$crypt->Mode = Crypt::MODE_HEX;
+$crypt->Key  = '!@#$%&*()_+?:';
+$encrypted = $crypt->encrypt('my test');
+echo $crypt->decrypt($encrypted);
+?>
+}}}
+
+or
+
+{{{
+<?php
+require_once 'Crypt/Crypt.php';
+
+$crypt = new Crypt(Crypt::MODE_HEX, '!@#$%&*()_+?:');
+$encrypted = $crypt->encrypt('my test');
+echo $crypt->decrypt($encrypted);
+?>
+}}}
