@@ -3,9 +3,9 @@
 
 == Getting Start ==
 
- * [Requirements]
- * [Installing]
+ * [Requirements] - What do you need to run the Crypt class?
+ * [Installing] - 
 
 == How to use ==
 
- * [Examples]
+ * [Examples] - How to use the Crypt class?
