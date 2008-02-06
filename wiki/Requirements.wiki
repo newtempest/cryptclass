@@ -1,0 +1,6 @@
+#summary What do you need to run the Crypt class?
+#labels Documentation
+
+== Requirements ==
+
+ * PHP Version 5
