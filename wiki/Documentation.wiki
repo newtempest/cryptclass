@@ -9,4 +9,3 @@
 == How to use ==
 
  * [Examples]
- * [Tips]
