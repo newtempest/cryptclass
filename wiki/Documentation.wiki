@@ -1,7 +1,5 @@
-#summary The Crypt class documentation
+#summary The Official Crypt class documentation
 #labels Documentation,Featured
-
-_Under development_
 
 == Getting Start ==
 
