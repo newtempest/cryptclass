@@ -11,5 +11,6 @@
 
  * [Examples] - How to use the Crypt class?
 
-== Compatibility ==
- * [Version2.2]
+== Versions compatibilities ==
+
+ * [Version_2-2]
