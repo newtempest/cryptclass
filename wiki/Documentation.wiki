@@ -3,6 +3,7 @@
 
 == Getting Start ==
 
+ * [About] - What's the Crypt class?
  * [Requirements] - What do you need to run the Crypt class?
  * [Installing] - How to install the Crypt class?
 
