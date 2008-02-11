@@ -2,6 +2,9 @@
 #labels Documentation
 
 == Examples ==
+Below follows some code examples of the Crypt class
+
+=== Encryptation process ===
 
 {{{
 <?php
@@ -11,18 +14,28 @@ $crypt = new Crypt();
 $crypt->Mode = Crypt::MODE_HEX;
 $crypt->Key  = '!@#$%&*()_+?:';
 $encrypted = $crypt->encrypt('my test');
-echo $crypt->decrypt($encrypted);
+echo $encrypted;
+
+$crypt = new Crypt(Crypt::MODE_HEX, '!@#$%&*()_+?:');
+$encrypted = $crypt->encrypt('my test');
+echo $encrypted;
 ?>
 }}}
 
-or
+=== Decryptation process ===
 
 {{{
 <?php
 require_once 'Crypt/Crypt.php';
 
+$crypt = new Crypt();
+$crypt->Mode = Crypt::MODE_HEX;
+$crypt->Key  = '!@#$%&*()_+?:';
+$decrypted = $crypt->decrypt($encrypted);
+echo $decrypted;
+
 $crypt = new Crypt(Crypt::MODE_HEX, '!@#$%&*()_+?:');
-$encrypted = $crypt->encrypt('my test');
-echo $crypt->decrypt($encrypted);
+$decrypted = $crypt->decrypt($encrypted);
+echo $decrypted;
 ?>
 }}}
