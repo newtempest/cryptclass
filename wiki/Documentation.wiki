@@ -1,7 +1,7 @@
 #summary The Official Crypt class documentation
 #labels Documentation,Featured
 
-== Getting Start ==
+== Getting Started ==
 
  * [About] - What's the Crypt class?
  * [Requirements] - What do you need to run the Crypt class?
@@ -9,3 +9,5 @@
  * [Examples] - How to use the Crypt class?
 
 == Versions compatibilities ==
+
+ @todo
