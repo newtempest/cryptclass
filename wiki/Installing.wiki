@@ -1,5 +1,5 @@
 #summary How to install the Crypt class?
-#labels Phase-Deploy
+#labels Documentation
 
 == Installing packages ==
 
