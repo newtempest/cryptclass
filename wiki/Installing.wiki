@@ -1,7 +1,7 @@
 #summary How to install the Crypt class?
 #labels Phase-Deploy
 
-== Downloading and installing ==
+== Installing packages ==
 
 *Installing the [http://cryptclass.googlecode.com/files/cryptclass_v2.2.tar.bz2 tar.bz2 package]:*
  {{{
