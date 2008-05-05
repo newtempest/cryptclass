@@ -4,7 +4,7 @@
 == Examples ==
 Below follows some code examples of the Crypt class
 
-=== Encryptation process ===
+=== Encryption process ===
 
 {{{
 <?php
@@ -22,7 +22,7 @@ echo $encrypted;
 ?>
 }}}
 
-=== Decryptation process ===
+=== Decryption process ===
 
 {{{
 <?php
