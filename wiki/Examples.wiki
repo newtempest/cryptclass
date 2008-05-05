@@ -1,7 +1,7 @@
 #summary How to use the Crypt class?
 #labels Documentation
 
-Below follows some code examples of the Crypt class
+Below follows some using examples of the Crypt class
 
 === Encryption process ===
 
