@@ -2,11 +2,3 @@
 #labels Documentation
 
 The Crypt class provides an easy and secure way to encrypt and decrypt data using the [http://en.wikipedia.org/wiki/Cryptography#Symmetric-key_cryptography Symmetric Cryptography] method, that is a low cost algorithm that encrypt data based on the shared keys conecpt.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
