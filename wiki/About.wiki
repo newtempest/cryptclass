@@ -1,4 +1,4 @@
 #summary What's the Crypt class?
 #labels Documentation
 
-The Crypt class provides an easy and secure way to encrypt and decrypt data using the [http://en.wikipedia.org/wiki/Cryptography#Symmetric-key_cryptography Symmetric Cryptography] method, that is a low cost algorithm that encrypt data based on the shared keys conecpt.
+The Crypt class provides an easy and secure way to encrypt/decrypt data with PHP using the [http://en.wikipedia.org/wiki/Cryptography#Symmetric-key_cryptography Symmetric Cryptography] method, a low cost algorithm that works based on the shared keys conecpt.
