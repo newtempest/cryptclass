@@ -1,0 +1,1 @@
+The Crypt class provides an easy and secure way to encrypt/decrypt data with PHP using the [Symmetric Cryptography](http://en.wikipedia.org/wiki/Cryptography#Symmetric-key_cryptography) method, a low cost algorithm that works based on the shared keys conecpt.
